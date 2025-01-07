@@ -1,6 +1,6 @@
 # Logic Poet Archive
 
-Logic Poet unfortunately is not around anymore. This archive contains dmgs for their SytemC MacOS port and Scansion app. This content does not belong to me (AEmreEser) in any way. You may find the original license in the license pdf file provided as well as below.
+Logic Poet unfortunately is not around anymore. This archive contains dmgs for their SytemC MacOS port and Scansion app. This content does not belong to me (AEmreEser) in any way. You may find the original license in the LICENSE file as well as below.
 
 # Open Source Distribution Package
 
