@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F98A0B90E55DD4C003A8312 /* fifo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98A0AC0E55DD4C003A8312 /* fifo.cpp */; };
+		1F98A0BA0E55DD4C003A8312 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98A0AE0E55DD4C003A8312 /* main.cpp */; };
+		1F98A0BB0E55DD4C003A8312 /* receiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98A0B00E55DD4C003A8312 /* receiver.cpp */; };
+		1F98A0BC0E55DD4C003A8312 /* sender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98A0B20E55DD4C003A8312 /* sender.cpp */; };
+		1F98A0BD0E55DD4C003A8312 /* switch_clk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98A0B40E55DD4C003A8312 /* switch_clk.cpp */; };
+		1F98A0BE0E55DD4C003A8312 /* switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98A0B70E55DD4C003A8312 /* switch.cpp */; };
+		1F98A1060E55EEDD003A8312 /* liblptracer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F98A1050E55EEDD003A8312 /* liblptracer.a */; };
+		1FBF390D0DEA08F00007737D /* libsystemc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBF390C0DEA08F00007737D /* libsystemc.a */; };
+		8DD76F6A0486A84900D96B5E /* pkt_switch.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* pkt_switch.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* pkt_switch.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F98A0AC0E55DD4C003A8312 /* fifo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fifo.cpp; sourceTree = "<group>"; };
+		1F98A0AD0E55DD4C003A8312 /* fifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fifo.h; sourceTree = "<group>"; };
+		1F98A0AE0E55DD4C003A8312 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1F98A0AF0E55DD4C003A8312 /* pkt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkt.h; sourceTree = "<group>"; };
+		1F98A0B00E55DD4C003A8312 /* receiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = receiver.cpp; sourceTree = "<group>"; };
+		1F98A0B10E55DD4C003A8312 /* receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = receiver.h; sourceTree = "<group>"; };
+		1F98A0B20E55DD4C003A8312 /* sender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sender.cpp; sourceTree = "<group>"; };
+		1F98A0B30E55DD4C003A8312 /* sender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sender.h; sourceTree = "<group>"; };
+		1F98A0B40E55DD4C003A8312 /* switch_clk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = switch_clk.cpp; sourceTree = "<group>"; };
+		1F98A0B50E55DD4C003A8312 /* switch_clk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switch_clk.h; sourceTree = "<group>"; };
+		1F98A0B60E55DD4C003A8312 /* switch_reg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switch_reg.h; sourceTree = "<group>"; };
+		1F98A0B70E55DD4C003A8312 /* switch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = switch.cpp; sourceTree = "<group>"; };
+		1F98A0B80E55DD4C003A8312 /* switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switch.h; sourceTree = "<group>"; };
+		1F98A1050E55EEDD003A8312 /* liblptracer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblptracer.a; path = "/Library/SystemC/systemc-2.2.0/liblptracer.a"; sourceTree = "<absolute>"; };
+		1FBF390C0DEA08F00007737D /* libsystemc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystemc.a; path = "/Library/SystemC/systemc-2.2.0/libsystemc.a"; sourceTree = "<absolute>"; };
+		8DD76F6C0486A84900D96B5E /* pkt_switch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pkt_switch; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* pkt_switch.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = pkt_switch.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBF390D0DEA08F00007737D /* libsystemc.a in Frameworks */,
+				1F98A1060E55EEDD003A8312 /* liblptracer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* pkt_switch */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF390C0DEA08F00007737D /* libsystemc.a */,
+				1F98A1050E55EEDD003A8312 /* liblptracer.a */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = pkt_switch;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1F98A0AC0E55DD4C003A8312 /* fifo.cpp */,
+				1F98A0AD0E55DD4C003A8312 /* fifo.h */,
+				1F98A0AE0E55DD4C003A8312 /* main.cpp */,
+				1F98A0AF0E55DD4C003A8312 /* pkt.h */,
+				1F98A0B00E55DD4C003A8312 /* receiver.cpp */,
+				1F98A0B10E55DD4C003A8312 /* receiver.h */,
+				1F98A0B20E55DD4C003A8312 /* sender.cpp */,
+				1F98A0B30E55DD4C003A8312 /* sender.h */,
+				1F98A0B40E55DD4C003A8312 /* switch_clk.cpp */,
+				1F98A0B50E55DD4C003A8312 /* switch_clk.h */,
+				1F98A0B60E55DD4C003A8312 /* switch_reg.h */,
+				1F98A0B70E55DD4C003A8312 /* switch.cpp */,
+				1F98A0B80E55DD4C003A8312 /* switch.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* pkt_switch */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* pkt_switch.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* pkt_switch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "pkt_switch" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pkt_switch;
+			productInstallPath = "$(HOME)/bin";
+			productName = pkt_switch;
+			productReference = 8DD76F6C0486A84900D96B5E /* pkt_switch */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "pkt_switch" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* pkt_switch */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* pkt_switch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F98A0B90E55DD4C003A8312 /* fifo.cpp in Sources */,
+				1F98A0BA0E55DD4C003A8312 /* main.cpp in Sources */,
+				1F98A0BB0E55DD4C003A8312 /* receiver.cpp in Sources */,
+				1F98A0BC0E55DD4C003A8312 /* sender.cpp in Sources */,
+				1F98A0BD0E55DD4C003A8312 /* switch_clk.cpp in Sources */,
+				1F98A0BE0E55DD4C003A8312 /* switch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(LOCAL_LIBRARY_DIR)/SystemC/systemc-2.2.0\"";
+				PRODUCT_NAME = pkt_switch;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(LOCAL_LIBRARY_DIR)/SystemC/systemc-2.2.0\"";
+				PRODUCT_NAME = pkt_switch;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Library/SystemC/Current/include;
+				LIBRARY_SEARCH_PATHS = /Library/SystemC/Current;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=default";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Library/SystemC/Current/include;
+				LIBRARY_SEARCH_PATHS = /Library/SystemC/Current;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=default";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "pkt_switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "pkt_switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

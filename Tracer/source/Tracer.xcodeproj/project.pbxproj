@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4683A90E2808B80029483C /* ModelBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683A10E2808B80029483C /* ModelBase.h */; };
+		1F4683AA0E2808B80029483C /* Tracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683A20E2808B80029483C /* Tracer.h */; };
+		1F4683AB0E2808B80029483C /* Tracer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F4683A30E2808B80029483C /* Tracer.cpp */; };
+		1F4683AC0E2808B80029483C /* Trace.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683A40E2808B80029483C /* Trace.h */; };
+		1F4683AF0E2808B80029483C /* EventType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683A70E2808B80029483C /* EventType.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F46839A0E28087A0029483C /* liblptracer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblptracer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4683A10E2808B80029483C /* ModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBase.h; sourceTree = "<group>"; };
+		1F4683A20E2808B80029483C /* Tracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracer.h; sourceTree = "<group>"; };
+		1F4683A30E2808B80029483C /* Tracer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tracer.cpp; sourceTree = "<group>"; };
+		1F4683A40E2808B80029483C /* Trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trace.h; sourceTree = "<group>"; };
+		1F4683A70E2808B80029483C /* EventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventType.h; sourceTree = "<group>"; };
+		1FBF390C0DEA08F00007737D /* libsystemc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystemc.a; path = "/Library/SystemC/systemc-2.2.0/libsystemc.a"; sourceTree = "<absolute>"; };
+		C6859E8B029090EE04C91782 /* Tracer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Tracer.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4683980E28087A0029483C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Tracer */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF390C0DEA08F00007737D /* libsystemc.a */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = Tracer;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1F4683A10E2808B80029483C /* ModelBase.h */,
+				1F4683A20E2808B80029483C /* Tracer.h */,
+				1F4683A30E2808B80029483C /* Tracer.cpp */,
+				1F4683A40E2808B80029483C /* Trace.h */,
+				1F4683A70E2808B80029483C /* EventType.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F46839A0E28087A0029483C /* liblptracer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* Tracer.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F4683960E28087A0029483C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4683A90E2808B80029483C /* ModelBase.h in Headers */,
+				1F4683AA0E2808B80029483C /* Tracer.h in Headers */,
+				1F4683AC0E2808B80029483C /* Trace.h in Headers */,
+				1F4683AF0E2808B80029483C /* EventType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F4683990E28087A0029483C /* lptracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F46839D0E2808A50029483C /* Build configuration list for PBXNativeTarget "lptracer" */;
+			buildPhases = (
+				1F4683960E28087A0029483C /* Headers */,
+				1F4683970E28087A0029483C /* Sources */,
+				1F4683980E28087A0029483C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lptracer;
+			productName = lptracer;
+			productReference = 1F46839A0E28087A0029483C /* liblptracer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Tracer" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Tracer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4683990E28087A0029483C /* lptracer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4683970E28087A0029483C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4683AB0E2808B80029483C /* Tracer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Library/SystemC/Current/include;
+				LIBRARY_SEARCH_PATHS = /Library/SystemC/Current;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=default";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Library/SystemC/Current/include;
+				LIBRARY_SEARCH_PATHS = /Library/SystemC/Current;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=default";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		1F46839B0E28087B0029483C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = lptracer;
+			};
+			name = Debug;
+		};
+		1F46839C0E28087B0029483C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = lptracer;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Tracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F46839D0E2808A50029483C /* Build configuration list for PBXNativeTarget "lptracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F46839B0E28087B0029483C /* Debug */,
+				1F46839C0E28087B0029483C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

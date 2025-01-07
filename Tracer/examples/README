@@ -1,0 +1,10 @@
+Logic Poet
+www.logicpoet.com
+
+These examples demostrate the use of the Tracer library to create transactions traces capable of being viewed in Scansion.
+
+*** at_1_phase ***
+This example is a modification of the at_1_phase example included in the OSCI TLM 2.0 distribution.  It shows the use of the Tracer library's native tlm_generic_payload tracing capability.  The Tracer will autmotically record the properties of the payload for logging to a file with no added work by the user.  This example is recording all of the phases and response in the payload transfer.  This is more detailed than we would normally use in a simulation (the whole point of Scansion's transaction level viewing is to easily see movement of trasactions in large systems without getting bogged down in the low level details), but it does help illustrate both the use of the API and the process for transferring the payload in this simulation.  You can find all modifications to this project by searching for LOGICPOET.
+ 
+*** pkt_switch ***
+This example is a modification of the pkt_switch example included with the OSCI SystemC distribution.  It shows how you can use the non-TLM2 style tracing to record the movement of normal packets flowing through a system (a very simople system in this case).  Note this simulation was originally designed to pass the packets by value rather than pointer.  Because of this, we add a Trace pointer to the packet.  Had the simulation been originally written to move pointers to the packet, we would have modified this by adding Trace as part of the pkt's inheritance.  You can find all modifications to this project by searching for LOGICPOET.
